@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+
+    <string name="app_name">AMPD</string>
+    <string name="albumCover">Album Cover</string>
+    <string name="controls">Controls</string>
+    <string name="servers">Servers</string>
+    <string name="files">Files</string>
+    <string name="misc">Misc</string>
+    <string name="testButton">Test Button</string>
+    <string name="btnUpContentDescription">Return to parent menu</string>
+    
+    <string name="empty_playlist">Playlist is empty</string>
+
+    <!-- Library Modes -->
+    <string name="library_prompt">Select library</string>
+    <string name="library_directories">Directories</string>
+    <string name="library_artists">Artists</string>
+    <string name="library_albums">Albums</string>
+    <string name="library_playlists">Playlists</string>
+
+    <!-- Controls -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <!-- Menu strings -->
+    <string name="library">Library</string>
+    <string name="info">Info</string>
+    <string name="playlist">Playlist</string>
+    <string name="server">Server</string>
+    <string name="connect">Connect</string>
+    <string name="settings">Settings</string>
+
+    <!-- Button Labels -->
+    <string name="no_song">No Song</string>
+
+    <!-- Preference strings -->
+    <string name="serverName">Server Name</string>
+    <string name="serverNameSummary">The display name for this server</string>
+    <string name="serverHost">Server Host</string>
+    <string name="serverHostDefault">127.0.0.1</string>
+    <string name="serverHostSummary">The host-name or ip address of this server</string>
+    <string name="serverPort">Server Port</string>
+    <string name="serverPortDefault">6600</string>
+    <string name="serverPortSummary">The TCP port number of this server (6600 is the MPD default)</string>
+    <string name="downloadLyrics">Download Lyrics</string>
+    <string name="downloadLyricsSummary">Whether to download song lyrics</string>
+    
+    <!--  Library Context Menus -->
+    <string name="menuAddToPlaylist">Add to playlist</string>
+    <string name="menuAddToPlaylistAndPlay">Add and play</string>
+    <string name="menuReplaceInPlaylist">Replace in playlist</string>
+    <string name="menuReplaceInPlaylistAndPlay">Replace and play</string>
+    <string name="menuClearPlaylist">Clear playlist</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/textTitle" -->
+    <!-- style="@style/titleText" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:textSize="20sp" -->
+    <!-- android:text="@string/no_song" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/textSubTitle" -->
+    <!-- style="@style/subTitleText" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <fragment -->
+    <!-- android:id="@+id/fragmentControls" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- class="org.danbrough.ampd.ButtonsFragment" /> -->
+
+</LinearLayout><!--
+OLD LAYOUT
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textTitle"
+            style="@style/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="20sp"
+            android:text="@string/no_song" />
+
+        <TextView
+            android:id="@+id/textSubTitle"
+            style="@style/subTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragmentControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="org.danbrough.ampd.ButtonsFragment" />
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+             android:layout_marginTop="2dp"       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" />
+
+</LinearLayout> 
+-->

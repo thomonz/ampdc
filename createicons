@@ -1,0 +1,38 @@
+#!/bin/bash
+
+LDPI=24
+MDPI=36
+HDPI=48
+XHDPI=64
+
+cd `dirname $0`
+RES=`pwd`/res
+SVG=`pwd`/svg
+
+mkdir -p ${RES}/drawable-ldpi 2> /dev/null
+mkdir -p ${RES}/drawable-mdpi 2> /dev/null
+mkdir -p ${RES}/drawable-hdpi 2> /dev/null
+mkdir -p ${RES}/drawable-xhdpi 2> /dev/null
+
+
+
+writeIcons(){
+	echo write icons in `pwd` with MDPI:${MDPI}
+	for n in `ls *.svg | sed -e 's:\.svg$::g'`; do
+	  convert ${n}.svg -resize ${LDPI}x  ${RES}/drawable-ldpi/${n}.png
+	  convert ${n}.svg -resize ${MDPI}x  ${RES}/drawable-mdpi/${n}.png
+	  convert ${n}.svg -resize ${HDPI}x  ${RES}/drawable-hdpi/${n}.png
+	  convert ${n}.svg -resize ${XHDPI}x  ${RES}/drawable-xhdpi/${n}.png 
+	done
+}
+
+
+cd $SVG
+writeIcons
+cd buttons
+LDPI=36
+MDPI=64
+writeIcons
+
+
+
