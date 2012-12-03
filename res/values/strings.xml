@@ -2,7 +2,7 @@
 <resources>
     
 
-    <string name="app_name">AMPD</string>
+    <string name="app_name">ampdc</string>
     <string name="albumCover">Album Cover</string>
     <string name="controls">Controls</string>
     <string name="servers">Servers</string>

@@ -14,8 +14,8 @@ import java.util.zip.GZIPOutputStream;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpGet;
-import org.danbrough.ampd.R;
-import org.danbrough.ampd.mpd.MpdFile;
+import org.danbrough.ampdc.R;
+import org.danbrough.ampdc.mpd.MpdFile;
 import org.danbrough.job.JobQueue;
 import org.danbrough.job.JobQueue.JobCallback;
 

@@ -1,6 +1,6 @@
 package org.danbrough.ampd.lyrics;
 
-import org.danbrough.ampd.mpd.MpdFile;
+import org.danbrough.ampdc.mpd.MpdFile;
 import org.danbrough.job.JobQueue.JobCallback;
 
 public interface LyricsService {
